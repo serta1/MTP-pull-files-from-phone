@@ -11,6 +11,8 @@ the main phoneImg.cs script.
 In order to run c sharp on my pc because I didn't want to install Visual Studio
 For compiling the cs file to an exe  using I downloaded https://www.mono-project.com/download/stable/
 Afterwards I opend the mono exe and typed 
+used cd to get to the folder with the cs file and the rest.
+then:
  csc phoneImg.cs /r:MediaDevices.dll
  
  The resulting exe needs to be together with the dll and xml file.
